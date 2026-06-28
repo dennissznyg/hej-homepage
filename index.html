@@ -299,10 +299,15 @@
     <p class="slogan-final">En fremmed er en ven, du ikke har mødt endnu.</p>
     <h2>Vær med fra start</h2>
     <p>Skriv dig op, og vær blandt de første, der får adgang, når Hej åbner i Storkøbenhavn.</p>
-    <div class="signup">
-      <input type="email" placeholder="din@email.dk" aria-label="E-mail">
-      <button class="btn btn-primary" onclick="this.textContent='Tak — vi skriver!'">Få tidlig adgang</button>
-    </div>
+    <form class="signup" id="signup-form" method="POST" target="hej-signup-frame" action="https://b5ecddb6.sibforms.com/serve/MUIFALr3RlqG7ZEwBaQA-FSyJ76ZxUYyHcF7tnip4pfPv0aXFBfizqImbvvjPR2f8hWJr3fjzepWhzGqmG0300udXrLeXtaOd5G2zjUkucPEPGPbpgI-UHEeR6ckip-5XTZX-tu0iNDe9KyP9CdbqEjmuvlM3inM3s4woUwg_Zc7n5lDGj6bMQvhU4Hj4y4H6OYwKlXjghRdgGpw2g==">
+      <input type="email" name="EMAIL" placeholder="din@email.dk" aria-label="E-mail" required>
+      <input type="text" name="email_address_check" value="" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+      <input type="hidden" name="locale" value="da">
+      <button class="btn btn-primary" type="submit">Få tidlig adgang</button>
+    </form>
+    <p id="signup-ok" style="display:none;font-family:var(--hand);font-weight:700;font-size:24px;color:var(--coral);margin-top:20px">Tak! Tjek din indbakke og bekræft din tilmelding.</p>
+    <p class="signup-consent" style="font-size:13px;color:var(--blue-mut);max-width:44ch;margin:16px auto 0">Vi gemmer kun din email for at give dig besked, når Hej åbner — og du kan altid framelde dig. <a href="#" style="color:var(--blue-mut)">Privatlivspolitik følger.</a></p>
+    <iframe name="hej-signup-frame" title="Tilmelding" style="display:none" aria-hidden="true"></iframe>
   </div>
 </section>
 
@@ -323,6 +328,16 @@
       btn.classList.add('done');
     });
   });
+
+  var sf = document.getElementById('signup-form');
+  if(sf){
+    sf.addEventListener('submit', function(){
+      setTimeout(function(){
+        sf.style.display = 'none';
+        document.getElementById('signup-ok').style.display = 'block';
+      }, 300);
+    });
+  }
 </script>
 
 </body>

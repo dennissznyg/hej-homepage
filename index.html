@@ -73,7 +73,7 @@
   .note{position:absolute;width:248px;padding:22px 22px 20px;border-radius:14px;
     box-shadow:0 14px 30px -14px rgba(22,55,99,.4);
     opacity:0;transform:translateY(26px) rotate(var(--rot));
-    animation:pin .7s cubic-bezier(.2,.8,.25,1) forwards;animation-delay:calc(var(--d) + .7s)}
+    animation:pin .7s cubic-bezier(.2,.8,.25,1) forwards;animation-delay:calc(var(--d) + .8s)}
   .note::before{content:"";position:absolute;top:-9px;left:50%;transform:translateX(-50%);
     width:16px;height:16px;border-radius:50%;background:var(--blue);
     box-shadow:inset 0 -2px 0 rgba(255,255,255,.3), 0 3px 5px -2px rgba(0,0,0,.35)}
@@ -267,33 +267,45 @@
 <section style="padding:92px 0;text-align:center">
   <div class="wrap">
     <h2 style="font-family:var(--display);font-weight:800;font-size:clamp(30px,4.4vw,50px);letter-spacing:-.025em;color:var(--blue-deep);margin-bottom:14px">Et kort — ikke et feed</h2>
-    <p style="font-size:19px;color:var(--blue-mut);max-width:42ch;margin:0 auto 44px">Se hvem der er frisk i nærheden lige nu. Vælg en aktivitet, sig ja — og mødes.</p>
-    <div style="display:inline-block;width:300px;background:#fff;border:1px solid var(--line);border-radius:32px;overflow:hidden;box-shadow:0 26px 54px -26px rgba(22,55,99,.45);text-align:left;vertical-align:top">
-      <div style="display:flex;align-items:center;justify-content:space-between;padding:14px 16px">
-        <span style="font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.02em;color:var(--blue-deep)">Hej<span style="color:var(--coral)">.</span></span>
-        <span style="font-family:var(--body);font-size:12px;font-weight:600;color:var(--blue);border:1px solid rgba(47,111,228,.4);border-radius:999px;padding:5px 11px">Filtre</span>
-      </div>
-      <div style="position:relative;height:330px;background:#EAF0E6">
-        <svg viewBox="0 0 300 330" width="300" height="330" style="display:block" aria-hidden="true">
-          <rect width="300" height="330" fill="#EAF0E6"/>
-          <path d="M0 215 Q95 200 185 240 T300 255 L300 330 L0 330 Z" fill="#BBDDF7"/>
-          <rect x="36" y="44" width="84" height="66" rx="10" fill="#C9E8B0"/>
-          <g stroke="#F7F5EF" stroke-width="9" stroke-linecap="round">
-            <line x1="-5" y1="125" x2="305" y2="155"/><line x1="140" y1="-5" x2="100" y2="335"/><line x1="225" y1="-5" x2="250" y2="225"/>
-          </g>
-        </svg>
-        <div style="position:absolute;left:96px;top:128px;transform:translate(-50%,-50%);width:120px;height:120px;border-radius:50%;background:rgba(47,111,228,.15);border:1.5px solid rgba(47,111,228,.55)"></div>
-        <svg style="position:absolute;left:96px;top:128px;transform:translate(-50%,-100%)" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="#2F6FE4"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>
-        <div style="position:absolute;left:214px;top:198px;transform:translate(-50%,-50%);width:92px;height:92px;border-radius:50%;background:rgba(255,111,91,.15);border:1.5px solid rgba(255,111,91,.6)"></div>
-        <svg style="position:absolute;left:214px;top:198px;transform:translate(-50%,-100%)" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="#FF6F5B"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>
-        <div style="position:absolute;left:12px;right:12px;bottom:12px;background:#fff;border-radius:13px;padding:11px 13px;border:1px solid var(--line)">
-          <div style="font-family:var(--body);font-size:12px;font-weight:600;color:var(--blue)">I dag 16:00 · Lyngby-området</div>
-          <div style="font-family:var(--display);font-size:16px;font-weight:700;color:var(--blue-deep);margin-top:1px">Frisk på en kaffe?</div>
-          <div style="font-family:var(--body);font-size:11px;color:var(--blue-mut);margin-top:4px">4 pladser · 20–30 år</div>
+    <p style="font-size:19px;color:var(--blue-mut);max-width:42ch;margin:0 auto 44px">Se hvem der vil mødes i nærheden. Vælg en aktivitet, sig ja — og I ses.</p>
+    <div style="display:inline-block;width:264px;background:#2a2a2c;border-radius:52px;padding:9px;box-shadow:0 32px 64px -28px rgba(22,55,99,.55);text-align:left;vertical-align:top">
+      <div style="position:relative;width:246px;height:530px;background:#F7F5EF;border-radius:43px;overflow:hidden">
+        <div style="position:absolute;top:12px;left:50%;transform:translateX(-50%);width:86px;height:26px;background:#000;border-radius:14px;z-index:3"></div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:15px 24px 0;font-family:var(--body);font-size:14px;font-weight:600;color:var(--blue-deep)">
+          <span>16.04</span>
+          <span style="display:flex;align-items:center;gap:6px">
+            <svg width="17" height="11" viewBox="0 0 17 11" aria-hidden="true"><rect x="0" y="7" width="3" height="4" rx="1" fill="#163763"/><rect x="4.7" y="5" width="3" height="6" rx="1" fill="#163763"/><rect x="9.3" y="2.5" width="3" height="8.5" rx="1" fill="#163763"/><rect x="14" y="0" width="3" height="11" rx="1" fill="#163763"/></svg>
+            <span style="font-size:12px">5G</span>
+            <svg width="24" height="12" viewBox="0 0 24 12" aria-hidden="true"><rect x="0.5" y="0.5" width="19" height="11" rx="3" fill="none" stroke="#163763" stroke-opacity=".5"/><rect x="2" y="2" width="14" height="8" rx="1.5" fill="#163763"/><rect x="21" y="4" width="2" height="4" rx="1" fill="#163763" fill-opacity=".5"/></svg>
+          </span>
         </div>
-      </div>
-      <div style="display:flex;justify-content:space-around;padding:12px 0 14px;border-top:1px solid var(--line);font-family:var(--body);font-size:12px;font-weight:600;color:var(--blue-mut)">
-        <span style="color:var(--blue)">Kort</span><span>Opret</span><span>Beskeder</span><span>Profil</span>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:8px 18px 12px">
+          <span style="font-family:var(--display);font-weight:800;font-size:23px;letter-spacing:-.02em;color:var(--blue-deep)">Hej<span style="color:var(--coral)">.</span></span>
+          <span style="font-family:var(--body);font-size:12px;font-weight:600;color:var(--blue);border:1px solid rgba(47,111,228,.4);border-radius:999px;padding:5px 11px">Filtre</span>
+        </div>
+        <div style="position:relative;height:392px;background:#EAF0E6">
+          <svg viewBox="0 0 246 392" width="246" height="392" style="display:block" aria-hidden="true">
+            <rect width="246" height="392" fill="#EAF0E6"/>
+            <path d="M0 250 Q95 235 185 275 T246 290 L246 392 L0 392 Z" fill="#BBDDF7"/>
+            <rect x="34" y="48" width="80" height="60" rx="10" fill="#C9E8B0"/>
+            <g stroke="#F7F5EF" stroke-width="9" stroke-linecap="round">
+              <line x1="-5" y1="140" x2="251" y2="170"/><line x1="120" y1="-5" x2="85" y2="397"/><line x1="200" y1="-5" x2="225" y2="270"/>
+            </g>
+          </svg>
+          <div style="position:absolute;left:84px;top:150px;transform:translate(-50%,-50%);width:118px;height:118px;border-radius:50%;background:rgba(47,111,228,.15);border:1.5px solid rgba(47,111,228,.55)"></div>
+          <svg style="position:absolute;left:84px;top:150px;transform:translate(-50%,-100%)" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="#2F6FE4"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>
+          <div style="position:absolute;left:170px;top:256px;transform:translate(-50%,-50%);width:90px;height:90px;border-radius:50%;background:rgba(255,111,91,.15);border:1.5px solid rgba(255,111,91,.6)"></div>
+          <svg style="position:absolute;left:170px;top:256px;transform:translate(-50%,-100%)" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8 2 5 5 5 9c0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7z" fill="#FF6F5B"/><circle cx="12" cy="9" r="2.6" fill="#fff"/></svg>
+          <div style="position:absolute;left:12px;right:12px;bottom:12px;background:#fff;border-radius:14px;padding:11px 13px;border:1px solid var(--line);box-shadow:0 8px 20px -12px rgba(22,55,99,.4)">
+            <div style="font-family:var(--body);font-size:12px;font-weight:600;color:var(--blue)">I dag 16:00 · Lyngby-området</div>
+            <div style="font-family:var(--display);font-size:16px;font-weight:700;color:var(--blue-deep);margin-top:1px">Frisk på en kaffe?</div>
+            <div style="font-family:var(--body);font-size:11px;color:var(--blue-mut);margin-top:4px">4 pladser · 20–30 år</div>
+          </div>
+        </div>
+        <div style="display:flex;justify-content:space-around;padding:12px 0 6px;border-top:1px solid var(--line);font-family:var(--body);font-size:11px;font-weight:600;color:var(--blue-mut)">
+          <span style="color:var(--blue)">Kort</span><span>Opret</span><span>Beskeder</span><span>Profil</span>
+        </div>
+        <div style="position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:120px;height:5px;border-radius:3px;background:rgba(22,55,99,.3)"></div>
       </div>
     </div>
   </div>
@@ -302,13 +314,13 @@
 <section class="why">
   <div class="wrap" style="grid-template-columns:1fr;max-width:720px">
     <div>
-      <h2>De fleste apps vil beholde dig. Hej vil have, du lægger den fra dig.</h2>
-      <p>Vi bygger ikke endnu et feed, du skal vænne dig til. Hej har ét formål: at få dig ud af døren og sammen med rigtige mennesker — og så ud af appen igen.</p>
+      <h2>De fleste apps stjæler din tid. Hej får dig til at lægge telefonen væk.</h2>
+      <p>Vi bygger ikke endnu et feed der optager dig i doomscrolling. Hej har ét formål: at give dig ægte oplevelser med rigtige mennesker — i den ægte verden.</p>
       <ul class="nolist">
         <li>Ingen likes at jagte</li>
         <li>Ingen følgere at samle på</li>
         <li>Ingen uendelig scroll</li>
-        <li class="yes">Bare et spontant ja til noget ægte</li>
+        <li class="yes">Bare en spontan aftale til noget ægte</li>
       </ul>
     </div>
   </div>

@@ -1,8 +1,12 @@
 # Social profiles — setup kit
 
 Ready-to-paste copy and assets for Hej's business pages. User-facing copy is Danish
-(per workspace convention). Handle: **@hejapp** everywhere (matches the future
-domain hejapp.dk). Link target until hejapp.dk is live:
+(per workspace convention).
+
+**Display name is simply "Hej"** on all three platforms — the display name does not
+need to be unique. Only the handle/username/URL must be unique, hence **@hejapp**
+(matches hejapp.dk; note the domain plan is hejapp.dk short-term, hej.com long-term).
+Link target until a custom domain is live:
 `https://dennissznyg.github.io/hej-homepage/`
 
 ## Assets (this folder)

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Hej">
+  <rect width="100" height="100" rx="24" fill="#163763"/>
+  <g fill="#FFFFFF">
+    <rect x="23.4" y="29" width="13.2" height="42"/>
+    <rect x="63.4" y="29" width="13.2" height="42"/>
+    <rect x="23.4" y="43.5" width="53.2" height="13"/>
+  </g>
+  <circle cx="81.5" cy="70" r="7.2" fill="#FF6F5B"/>
+</svg>

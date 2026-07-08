@@ -7,7 +7,7 @@ Ready-to-paste copy and assets for Heeij's business pages. User-facing copy is D
 everywhere (verified free on IG + LinkedIn 2026-07-08; FB validated in the username
 form). Domain plan: **heeij.com** (+ heeij.dk), purchase pending.
 Link target until a custom domain is live:
-`https://dennissznyg.github.io/hej-homepage/`
+`https://dennissznyg.github.io/heeij-homepage/`
 
 ## Assets (this folder)
 | File | Use |
@@ -33,7 +33,7 @@ Foreslå en aktivitet. Mød andre — i virkeligheden.
 Skriv dig op ⬇️
 ```
 
-**Link:** https://dennissznyg.github.io/hej-homepage/
+**Link:** https://dennissznyg.github.io/heeij-homepage/
 
 ---
 
@@ -49,7 +49,7 @@ også er friske — i virkeligheden. Ingen likes, ingen følgere, ingen endeløs
 scroll. Vi åbner først i Storkøbenhavn.
 ```
 
-**Website:** https://dennissznyg.github.io/hej-homepage/
+**Website:** https://dennissznyg.github.io/heeij-homepage/
 
 ---
 
@@ -78,7 +78,7 @@ Vi åbner først i Storkøbenhavn. Skriv dig op og få besked, når vi går i lu
 ```
 
 **Industry:** Software Development · **Size:** 1 medarbejder · **Type:** Privatejet
-**Website:** https://dennissznyg.github.io/hej-homepage/
+**Website:** https://dennissznyg.github.io/heeij-homepage/
 
 ---
 

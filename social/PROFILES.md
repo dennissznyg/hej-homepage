@@ -1,11 +1,11 @@
 # Social profiles — setup kit
 
-Ready-to-paste copy and assets for Hej's business pages. User-facing copy is Danish
+Ready-to-paste copy and assets for Heeij's business pages. User-facing copy is Danish
 (per workspace convention).
 
-**Display name is simply "Hej"** on all three platforms — the display name does not
-need to be unique. Only the handle/username/URL must be unique, hence **@hejapp**
-(matches hejapp.dk; note the domain plan is hejapp.dk short-term, hej.com long-term).
+**Display name is simply "Heeij"** on all three platforms. Handle is **@heeijapp**
+everywhere (verified free on IG + LinkedIn 2026-07-08; FB validated in the username
+form). Domain plan: **heeij.com** (+ heeij.dk), purchase pending.
 Link target until a custom domain is live:
 `https://dennissznyg.github.io/hej-homepage/`
 
@@ -20,14 +20,14 @@ Instagram has no cover. The og-image (`../og-image.png`) doubles as a link-share
 
 ---
 
-## Instagram (@hejapp)
+## Instagram (@heeijapp)
 
-**Name:** Hej
+**Name:** Heeij
 **Category:** App-side (or: Fællesskab / Community)
 **Bio** (under 150 chars):
 
 ```
-Nye venskaber begynder med Hej 👋
+Nye venskaber begynder med Heeij 👋
 Foreslå en aktivitet. Mød andre — i virkeligheden.
 Åbner først i Storkøbenhavn 📍
 Skriv dig op ⬇️
@@ -37,14 +37,14 @@ Skriv dig op ⬇️
 
 ---
 
-## Facebook (facebook.com/hejapp)
+## Facebook (facebook.com/heeijapp)
 
-**Page name:** Hej
+**Page name:** Heeij
 **Category:** App / Fællesskab
 **Short description (Om)** (max 255 chars):
 
 ```
-Hej er en app, der får dig væk fra skærmen. Foreslå en aktivitet, mød andre der
+Heeij er en app, der får dig væk fra skærmen. Foreslå en aktivitet, mød andre der
 også er friske — i virkeligheden. Ingen likes, ingen følgere, ingen endeløs
 scroll. Vi åbner først i Storkøbenhavn.
 ```
@@ -53,19 +53,19 @@ scroll. Vi åbner først i Storkøbenhavn.
 
 ---
 
-## LinkedIn (linkedin.com/company/hejapp)
+## LinkedIn (linkedin.com/company/heeijapp)
 
-**Company name:** Hej
+**Company name:** Heeij
 **Tagline** (max 120 chars):
 
 ```
-Appen, der får dig væk fra skærmen. Nye venskaber begynder med Hej. Vi åbner først i Storkøbenhavn.
+Appen, der får dig væk fra skærmen. Nye venskaber begynder med Heeij. Vi åbner først i Storkøbenhavn.
 ```
 
 **About:**
 
 ```
-Hej er en app med ét formål: at få folk til at mødes i virkeligheden.
+Heeij er en app med ét formål: at få folk til at mødes i virkeligheden.
 
 Du foreslår en aktivitet — en kaffe, en løbetur, en koncert. Andre i nærheden
 siger til, du godkender, og så mødes I. Ingen likes, ingen følgere, ingen
@@ -83,10 +83,10 @@ Vi åbner først i Storkøbenhavn. Skriv dig op og få besked, når vi går i lu
 ---
 
 ## Notes
-- Update all website links + og-references when **hejapp.dk** goes live.
+- Update all website links + og-references when **heeij.com** goes live.
 - Page admins are NOT publicly visible on any of the three platforms (FB pages,
   IG business, LinkedIn company pages) — creating them does not publish
   Dennis's identity. On LinkedIn his profile only shows as affiliated if he
-  lists Hej as employer on his own profile.
+  lists Heeij as employer on his own profile.
 - Per the standing legal block: pages may exist and post organically, but do
   NOT run paid signup campaigns until the data-controller TBA issue is solved.

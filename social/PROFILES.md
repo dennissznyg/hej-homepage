@@ -23,17 +23,18 @@ Instagram has no cover. The og-image (`../og-image.png`) doubles as a link-share
 ## Instagram (@heeijapp)
 
 **Name:** Heeij
-**Category:** App-side (or: Fællesskab / Community)
-**Bio** (under 150 chars):
+**Category:** Produkt/tjeneste (IG has no "App-side"); **hide** category on profile
+**Bio** (under 150 chars) — deliberately NO website/link (per Dennis: no homepage reference; also legal signup block):
 
 ```
 Nye venskaber begynder med Heeij 👋
 Foreslå en aktivitet. Mød andre — i virkeligheden.
 Åbner først i Storkøbenhavn 📍
-Skriv dig op ⬇️
 ```
 
-**Link:** https://dennissznyg.github.io/heeij-homepage/
+**Website field:** leave EMPTY (no homepage reference).
+**Profile picture:** social/profile-1080.png (Heeij wordmark on navy — circle-safe). Live at https://dennissznyg.github.io/hej-homepage/social/profile-1080.png
+**Note:** IG profile picture + bio can ONLY be set in the Instagram app — Meta's API does not expose profile editing (only content publishing).
 
 ---
 

@@ -40,63 +40,69 @@ via SoMe endnu. (Ophæves når den juridiske P0 er løst.)
 
 ---
 
-## 5. HASHTAG-SYSTEM
+## 5. HASHTAG-SYSTEM (efter FUNKTION)
 
-**Instagram-opskrift: 5-8 tags pr. opslag** = Kerne (3) + Geo (1-2) + Tema (1-2) + evt. Aktivitet (0-1).
-Kvalitet > kvantitet — små, målrettede danske tags slår store engelske (drukner ikke i #friends).
+> **To realiteter, systemet bygger på:**
+> 1. **Hashtags er ikke længere reach-motoren** på IG (Mosseri, 2024). Reach kommer nu fra
+>    Reels, delinger/gem, **lokations-tag/-sticker**, samarbejder (collab-posts) og **keywords
+>    i teksten** (IG-søgning). Hashtags = kategorisering + identitet + lidt niche-opdagelse.
+> 2. **Ingen rene popularitetstal findes** (IG skjulte dem 2023; vores API kan ikke slå dem op).
+>    Tags herunder er **validerede kvalitativt** via grid-tjek 2026-07-09 (aktivitet + fit).
 
-### 🔒 Kerne — GENGANGERE (altid, på hvert IG-opslag)
-```
-#Heeij  #NyeVenskaber  #Storkøbenhavn
-```
-`#Heeij` bygger brandet · `#NyeVenskaber` er missionen · `#Storkøbenhavn` er markedet.
+**Vælg efter formål — ikke en fast kerne. `#Heeij` er dog altid med. Opskrift: ~4-6 tags.**
+**Proces: jeg FORESLÅR tag-sæt pr. opslag; Dennis godkender inden det postes (se [[dennis-propose-dont-decide-branding]]).**
 
-### 📍 Geo-pulje (vælg 1-2, match postens sted)
+### 🟦 IDENTIFIKATION (ejet) — formål: identitet & UGC, ikke reach
 ```
-#København  #Kbh  #Frederiksberg  #Lyngby  #Gentofte
-#Nørrebro  #Vesterbro  #Østerbro  #Amager
+#Heeij            (altid)
+#mødtespåheeij    (brugerhistorier — efter launch; vores ejede UGC-tag)
 ```
+`#mødtespåheeij` = "de mødtes på Heeij". Der findes intet stærkt dansk "find-venner-i-KBH"-fællesskab
+(valideret: tyndt/forurenet), så vi **bygger vores eget** som svaret på det hul. Opfordr folk til at bruge det.
+Slogan-tags (#MødIVirkeligheden o.l.) hører til her: ren stemme, **max 1**, giver ingen reach.
 
-### 💛 Tema-pulje (vælg 1-2)
+### 🟩 REACH (opdagelse) — formål: nå ud over følgerne
 ```
-#MødIVirkeligheden  #Fællesskab  #MødNyeMennesker
-#VennerIKøbenhavn  #DetVirkeligeLiv  #LukAppenMødVerden
+#København  #Copenhagen          (bred; stort & aktivt, høj konkurrence)
+#oplevkøbenhavn                  (✅ valideret stærk — KBH-guides, vores publikum)
+#Nørrebro #Vesterbro #Østerbro #Frederiksberg  (kvarter — kun når stedet er specifikt)
 ```
+❌ **Ikke #Storkøbenhavn** (valideret tyndt — det er positionering i tekst, ikke et reach-tag).
 
-### 🎟️ Aktivitets-pulje (vælg 0-1, match indhold)
+### 🟧 ENGAGEMENT / FÆLLESSKAB — formål: interaktion fra folk der resonerer
 ```
-#TingAtLaveiKbh  #WeekendIKøbenhavn  #KulturKbh  #KaffeKbh  #UdeIDetFri
+#studieliv        (kun til studie-/newcomer-vinklede opslag; moderat aktivt)
 ```
+Ærligt tyndt i DK. Undgå tomme/forurenede: #venindedate (~tomt), #nyibyen (forurenet af virksomheder).
+Denne bucket vokser primært via vores eget UGC-tag over tid.
 
-### 🧡 Kampagne / UGC-tag (brugerhistorier — efter launch)
+### ⛔ UNDGÅ
 ```
-#MødtPåHeeij
+#ensomhed  #EnsomhedBlandtUnge
 ```
-Vores ejede tag: opfordr folk til at bruge det, når de mødes gennem Heeij. Byg et arkiv af ægte møder.
-
-### ⚠️ Bruges med omtanke (kun på ægte mission-/awareness-indhold, aldrig som reach-hack)
-```
-#Ensomhed  #EnsomhedBlandtUnge
-```
+Valideret: rå, personlig smerte (folk der deler at de græder) — **ikke et marketing-rum**.
+At sætte et brand-tag der er tonedøvt. (På LinkedIn i seriøs awareness-kontekst kan #Ensomhed forsvares — se §6.)
 
 ---
 
 ## 6. Pr. kanal — afvigelser
-- **Facebook:** hashtags betyder næsten intet. Max 1-2: `#Heeij #Storkøbenhavn`.
-- **LinkedIn:** 3-5 professionelle (andet register — startup/impact):
+- **Facebook:** hashtags betyder næsten intet. Max 1-2: `#Heeij #København`.
+- **LinkedIn:** 3-5 professionelle (andet register — startup/impact, hvor #Ensomhed ér passende):
   ```
-  #Heeij  #Iværksætteri  #Startup  #SocialImpact  #Ensomhed  #Storkøbenhavn
+  #Heeij  #Iværksætteri  #Startup  #SocialImpact  #Ensomhed  #København
   ```
 
 ## 7. Klar-til-brug eksempler
-**IG — aktivitets-post (kaffe i København):**
-`#Heeij #NyeVenskaber #Storkøbenhavn #København #KaffeKbh #MødNyeMennesker`
+**IG — standard:**
+`#Heeij #København #Copenhagen #oplevkøbenhavn`
 
-**IG — mission-post:**
-`#Heeij #NyeVenskaber #Storkøbenhavn #MødIVirkeligheden #Fællesskab`
+**IG — sted-specifikt (fx Nørrebro):**
+`#Heeij #København #oplevkøbenhavn #Nørrebro`
 
-**IG — første post (allerede live, på-strategi):**
-`#Heeij #Storkøbenhavn #København #NyeVenskaber #Fællesskab #MødIVirkeligheden`
+**IG — studie-vinklet:**
+`#Heeij #København #oplevkøbenhavn #studieliv`
+
+**Altid oveni:** lokations-tag på opslaget + søgbare keywords i teksten (den reelle opdagelses-motor).
 
 ---
 Relateret: `PROFILES.md` (bios/handles), `../brand.html` (visuel kanon).

@@ -52,14 +52,18 @@ via SoMe endnu. (Ophæves når den juridiske P0 er løst.)
 **Vælg efter formål — ikke en fast kerne. `#Heeij` er dog altid med. Opskrift: ~4-6 tags.**
 **Proces: jeg FORESLÅR tag-sæt pr. opslag; Dennis godkender inden det postes (se [[dennis-propose-dont-decide-branding]]).**
 
-### 🟦 IDENTIFIKATION (ejet) — formål: identitet & UGC, ikke reach
+### 🟦 IDENTIFIKATION (ejet + signatur) — formål: identitet, forståelse & UGC, ikke reach
 ```
 #Heeij            (altid)
+#VilDuMed         (signatur-prompt — invitationen; brug ofte)
 #mødtespåheeij    (brugerhistorier — efter launch; vores ejede UGC-tag)
 ```
-`#mødtespåheeij` = "de mødtes på Heeij". Der findes intet stærkt dansk "find-venner-i-KBH"-fællesskab
-(valideret: tyndt/forurenet), så vi **bygger vores eget** som svaret på det hul. Opfordr folk til at bruge det.
-Slogan-tags (#MødIVirkeligheden o.l.) hører til her: ren stemme, **max 1**, giver ingen reach.
+`#VilDuMed` er brandets invitations-signatur som hashtag. **Ikke unik** (almindelig frase → ingen reach),
+men bevidst med: den **gør appens idé øjeblikkeligt tydelig** og opfordrer til svar. Bruges regelmæssigt,
+især under aktivitets-opslag.
+`#mødtespåheeij` = "de mødtes på Heeij" — vores ejede UGC-tag. Der findes intet stærkt dansk
+"find-venner-i-KBH"-fællesskab (valideret: tyndt/forurenet), så vi **bygger vores eget** som svaret på det hul.
+Slogan-tags (#MødIVirkeligheden o.l.) hører også her: ren stemme, **max 1**, giver ingen reach.
 
 ### 🟩 REACH (opdagelse) — formål: nå ud over følgerne
 ```
@@ -94,7 +98,7 @@ At sætte et brand-tag der er tonedøvt. (På LinkedIn i seriøs awareness-konte
 
 ## 7. Klar-til-brug eksempler
 **IG — standard:**
-`#Heeij #København #Copenhagen #oplevkøbenhavn`
+`#Heeij #VilDuMed #København #Copenhagen #oplevkøbenhavn`
 
 **IG — sted-specifikt (fx Nørrebro):**
 `#Heeij #København #oplevkøbenhavn #Nørrebro`

@@ -403,12 +403,10 @@
 
 <script>
   document.querySelectorAll('.note .join').forEach(function(btn){
+    var base = parseInt(btn.getAttribute('data-count'),10);
     btn.addEventListener('click', function(){
-      if(btn.classList.contains('done')) return;
-      var n = parseInt(btn.getAttribute('data-count'),10) + 1;
-      btn.setAttribute('data-count', n);
-      btn.textContent = n + ' er med';
-      btn.classList.add('done');
+      var joined = btn.classList.toggle('done');
+      btn.textContent = (joined ? base + 1 : base) + ' er med';
     });
   });
 
